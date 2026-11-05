@@ -1,0 +1,15 @@
+# Data and training outputs
+dataset/
+Datasets/
+result/
+*.pth
+
+# Local paper copies
+*.pdf
+
+# Environments and caches
+.venv/
+__pycache__/
+
+# OS files
+.DS_Store
