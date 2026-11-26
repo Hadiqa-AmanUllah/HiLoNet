@@ -1,6 +1,6 @@
 # HiLoNet
 
-Code for *HiLoNet: A Cross-Domain Wireless Sensing Framework for Human Activity Recognition in Smart Homes* (ICONIP 2026).
+Code for *HiLoNet: A Cross-Domain Wireless Sensing Framework for Human Activity Recognition in Smart Homes* (ICONIP 2026). [Paper](https://doi.org/10.1007/978-981-92-8113-8_23)
 
 HiLoNet recognizes human activities from radio-frequency signals. It classifies the 55 activities of the [XRF55](https://aiotgroup.github.io/XRF55/) dataset using WiFi, RFID or mmWave data, with a separate model for each modality.
 
@@ -90,12 +90,20 @@ Missing or corrupt data files are replaced with zeros and logged as warnings. Ch
 
 If you use this code, please cite:
 
+> Ullah, H.A., Zhou, Y., Sheng, Q.Z. (2027). HiLoNet: A Cross-Domain Wireless Sensing Framework for Human Activity Recognition in Smart Homes. In: Bhatti, A., et al. *Neural Information Processing*. ICONIP 2026. Communications in Computer and Information Science, vol 3199. Springer, Singapore. https://doi.org/10.1007/978-981-92-8113-8_23
+
 ```bibtex
-@inproceedings{ullah2026hilonet,
+@inproceedings{ullah2027hilonet,
   title={HiLoNet: A Cross-Domain Wireless Sensing Framework for Human Activity Recognition in Smart Homes},
   author={Ullah, Hadiqa Aman and Zhou, Yipeng and Sheng, Quan Z.},
-  booktitle={International Conference on Neural Information Processing (ICONIP)},
-  year={2026}
+  editor={Bhatti, A. and others},
+  booktitle={Neural Information Processing (ICONIP 2026)},
+  series={Communications in Computer and Information Science},
+  volume={3199},
+  publisher={Springer},
+  address={Singapore},
+  year={2027},
+  doi={10.1007/978-981-92-8113-8_23}
 }
 ```
 
